@@ -6,7 +6,7 @@ const ContactUs = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [error, setError] = useState(""); // Pour afficher les erreurs
+  const [error, setError] = useState(""); 
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
@@ -30,7 +30,7 @@ const ContactUs = () => {
     setName("");
     setEmail("");
     setMessage("");
-    setError(""); // Réinitialiser l'erreur
+    setError(""); 
 
     // Rediriger vers la page d'accueil après soumission
     navigate("/");
