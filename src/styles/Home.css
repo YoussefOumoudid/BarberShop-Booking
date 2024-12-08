@@ -25,10 +25,10 @@
 }
 
 .navbar-links li:hover {
-  color: #ff6347; /* Example hover color */
+  color: #ff6347; 
 }
 
-/* Styles for Main Section */
+
 .home {
   text-align: center;
   padding: 20px;
